@@ -59,14 +59,14 @@ main {
 }
 .notification{
   align-items: center;
-  padding: .7rem;
+  padding: .5rem;
   background-color: hsl(210, 60%, 98%);
   margin-bottom: 12px;
   border-radius: 12px;
 }
 .avatar-container{
-  width: 4rem;
-  height: 5rem;
+  min-width: 5rem;
+  height: 4rem;
   overflow: hidden;
   margin-right: 1rem;
 }
