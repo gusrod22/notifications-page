@@ -29,12 +29,14 @@
         <div class="notifications-bar">
           <div class="notifications-count">
             <p><span class="bold-text">Notifications</span></p>
-            <p id="notification-count"></p>
+            <div class="count-container">
+              <p id="count">1</p>
+            </div>
           </div>
-          <p>Mark all as read</p>
+          <p id="mark-read">Mark all as read</p>
         </div>
         <div class="notifications-feed">
-          <div class="notification">
+          <div class="notification unread-notification">
             <div class="avatar-container">
               <img src="/assets/images/avatar-mark-webber.webp" alt="" />
             </div>
@@ -47,11 +49,12 @@
                     My first tournament today!</span
                   >
                 </p>
+                <div class="notification-marker"></div>
               </div>
               <p>1m ago</p>
             </div>
           </div>
-          <div class="notification">
+          <div class="notification unread-notification">
             <div class="avatar-container">
               <img src="/assets/images/avatar-angela-gray.webp" alt="" />
             </div>
@@ -59,10 +62,11 @@
               <div class="content">
                 <p><span class="bold-text">Angela Gray</span> followed you</p>
               </div>
+              <div class="notification-marker"></div>
               <p>5m ago</p>
             </div>
           </div>
-          <div class="notification">
+          <div class="notification unread-notification">
             <div class="avatar-container">
               <img src="/assets/images/avatar-jacob-thompson.webp" alt="" />
             </div>
@@ -74,6 +78,7 @@
                   <span class="bold-blue-text"> Chess Club</span>
                 </p>
               </div>
+              <div class="notification-marker"></div>
               <p>1 day ago</p>
             </div>
           </div>
