@@ -11,6 +11,11 @@ body {
   height: 100%;
 }
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(210, 60%, 98%);
+
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -47,7 +52,10 @@ main {
   color: hsl(219, 14%, 63%);
 }
 .layout-container{
+  background-color: white;
   padding: 1rem;
+  max-width: 750px;
+  border-radius: 15px;
 }
 .notifications-bar,
 .notification {
@@ -93,6 +101,7 @@ main {
 .image-preview{
   margin-left: .5rem;
   width: 4rem;
+  cursor: pointer;
 }
 .image-preview img{
   width: 100%;
@@ -102,6 +111,12 @@ main {
 .bold-text{
   color: hsl(224, 21%, 14%);
   font-weight: 800;
+}
+.user{
+  cursor: pointer;
+}
+.post-link{
+  cursor: pointer;
 }
 .bold-blue-text{
   color: hsl(219, 85%, 26%);
